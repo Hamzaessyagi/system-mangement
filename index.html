@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="/src/index.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <title>User Management</title>
 </head>
@@ -56,7 +56,7 @@
         </div>
 <!-- Boutons en dehors de la modale -->
 <div class="sec">
-  <button class="role"><i class="fas fa-file-export"></i><p>Export</p></button>
+  <button class="role"><i class="fas fa-file-export"></i>Export</button>
   <button id="addUserBtn" class="rolee">
     <i class="fas fa-user-plus"></i>
     <p>Add User</p>
@@ -64,7 +64,10 @@
 </div>
 
 <!-- MODALE -->
-<div id="modal" class="modal" style="display: none;">
+
+
+
+<div id="modal" class="modal" style="display: none;" >
   <div class="modal-content">
     <form id="userForm">
       <input type="text" id="name" placeholder="FUll Name" required />
@@ -76,7 +79,8 @@
 
     </form>
   </div>
-</div>
+ </div>
+
 
     </div>
   <div class="table-container">
@@ -214,23 +218,25 @@
   <footer>
     <div class="div1">
       <div class="di"><p>Rows per page</p></div>
-      <button class="dii"><p>10    ⏷</p></button>
+      <button class="dii"> 10    ⏷ </button>
       <div class="di">of 140 rows</div>
     </div>
     <div class="div2">
       <button class="button">&#60;</button>
       <button class="button">&#60;&#60;</button>
-      <button class="button"><p>1</p></button>
-      <button class="button"><p>2</p></button>
-      <button class="button"><p>3</p></button>
-      <button class="button"><p>...</p></button>
-      <button class="button"><p>10</p></button>
+      <button class="button"> 1 </button>
+      <button class="button"> 2 </button>
+      <button class="button"> 3 </button>
+      <button class="button"> ... </button>
+      <button class="button"> 10 </button>
       <button class="button">></button>
       <button class="button">>></button>
     </div>
   </footer>
   </section>
   </div>
-  <script src="./index.js"></script>
+  <script type="module" src="/src/main.jsx"></script>
+  <script src="./index.js"> </script>
+  <script src="./src/test/main.js"></script>
 </body>
 </html>

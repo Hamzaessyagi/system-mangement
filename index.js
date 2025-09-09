@@ -13,7 +13,7 @@
 
   // Ouvrir la modale
   addUserBtn.addEventListener("click", () => {
-    modal.style.display = "block";
+    modal.style.display = "flex";
   });
 
   // Fermer la modale
